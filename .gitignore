@@ -1,1 +1,6 @@
-/config/
+* Unir la rama secundaria a la rama Principal (Merge - Unir):
+git checkout master -> Nos paramos en la rama Principal para hacer el merge de la rama secundaria
+git merge nueva_funcionalidad 
+
+* Eliminar rama con git:
+git branch -d nueva_funcionalidad
